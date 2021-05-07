@@ -3,7 +3,7 @@ trying to make a simple Ghost Trap toy with Arduino Nano
 
 ## Circuit
 
-_TODO_
+![circuit](hardware/circuit.png)
 
 ## How to build PlatformIO based project
 
