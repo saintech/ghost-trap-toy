@@ -1,0 +1,1 @@
+for f in *.wav; do xxd -i -s 44 $f | sed -e 's/unsigned char \(.*\)\[\]/const unsigned char \1[] PROGMEM/g' > ../src/${f%.wav}.h; done
